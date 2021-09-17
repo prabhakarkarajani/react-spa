@@ -1,0 +1,34 @@
+.nav-container {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #333;
+  /* height: 100vh; */
+  width: 60px;
+  padding-top: 30px;
+}
+
+.nav-container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container li {
+  list-style: none;
+  display: block;
+}
+
+.nav-container a:link, .nav-container a:visited {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px 10px;
+}
+
+.nav-container a:hover {
+  background-color: rgb(107, 103, 103);
+}
+
+.nav-container a svg {
+  width: 32px;
+  height: 32px;
+}
